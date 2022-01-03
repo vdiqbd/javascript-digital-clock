@@ -67,7 +67,7 @@ const setMinutes = () => {
     setOpacity(tops[2], topRights[2], middles[2], bottomRights[2], bottoms[2]);
   } else if (minutes[0] === "4") {
     setOpacity(topLefts[2], middles[2], topRights[2], bottomRights[2]);
-  } else if (minutes[0 === "5"]) {
+  } else if (minutes[0] === "5") {
     setOpacity(tops[2], topLefts[2], middles[2], bottomRights[2], bottoms[2]);
   }
 
