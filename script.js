@@ -40,7 +40,7 @@ const setHours = () => {
       bottomRights[1]
     );
   } else if (newHours[1] === "1") {
-    setOpacity(topLefts[1], bottomLefts[1]);
+    setOpacity(topRights[1], bottomRights[1]);
   } else {
     setOpacity(tops[1], topLefts[1], middles[1], bottomRights[1], bottoms[1]);
   }
