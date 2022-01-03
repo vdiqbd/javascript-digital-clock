@@ -1,0 +1,117 @@
+body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(0, 0%, 10%);
+}
+
+.main {
+  width: 850px;
+  height: 400px;
+  background: hsl(0, 0%, 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  width: 170px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.three {
+  width: 80px;
+}
+
+.top {
+  top: 0;
+  width: 170px;
+  height: 15px;
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.top-right {
+  right: 0;
+  top: 20px;
+  width: 15px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.top-left {
+  left: 0;
+  top: 20px;
+  width: 15px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.middle {
+  width: 135px;
+  height: 15px;
+  background: red;
+  border-radius: 10px;
+}
+
+.bottom-left {
+  left: 0;
+  width: 15px;
+  bottom: 20px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.bottom-right {
+  right: 0;
+  width: 15px;
+  bottom: 20px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.bottom {
+  bottom: 0;
+  width: 170px;
+  height: 15px;
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.opaque {
+  opacity: 10%;
+}
+
+.three {
+  flex-direction: column;
+}
+
+.blink {
+  opacity: 0%;
+}
+
+.circle-one,
+.circle-two {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  margin: 25px 0;
+}
